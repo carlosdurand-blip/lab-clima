@@ -1,0 +1,39 @@
+body {
+  background-color: #e8f1f8;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.buscador {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tarjeta-clima {
+  background-color: white;
+  width: 300px;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px gray;
+}
+
+.temperatura {
+  font-size: 50px;
+}
+
+.detalle-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.error {
+  color: red;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: gray;
+}

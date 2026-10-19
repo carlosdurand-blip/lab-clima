@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clima en el Perú</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+  <h1>Aplicación de clima</h1>
+  <h3>Clima en el Perú</h3>
+  <p>Elige una ciudad y mira su clima actual.</p>
+</header>
+
+  <main>
+    <section class="buscador">
+
+      <select id="selectorCiudad">
+        <option value="lima">Lima</option>
+        <option value="cusco">Cusco</option>
+        <option value="arequipa">Arequipa</option>
+        <option value="trujillo">Trujillo</option>
+        <option value="piura">Piura</option>
+        <option value="iquitos">Iquitos</option>
+      </select>
+
+      <button id="btnConsultar">Ver clima</button>
+
+    </section>
+
+    <p id="mensajeError" class="error"></p>
+
+    <section id="resultado"></section>
+  </main>
+
+  <footer>
+    <p>&copy;Derechos reservados a Carlos Durand</p>
+  </footer>
+
+  <script src="app.js"></script>
